@@ -49,5 +49,7 @@ void    ft_philo_print(t_philo **philo, char *str);
 void    ft_philo_sleep(t_philo **philo, int nb);
 int	ft_meals_eaten(t_philo **philo);
 int	ft_check_eating_time(t_philo **philo, int i, int id);
+void	ft_incr_meals_eaten(t_philo **philo);
+int	ft_take_first_fork(t_philo **philo);
 
 #endif
